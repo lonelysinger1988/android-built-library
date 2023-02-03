@@ -1,9 +1,10 @@
 package com.silicon.client;
 
 import android.util.Log;
+import android.widget.Toast;
 
 public class ServiceHelper {
-    public void logClientId(){
-        
+    public static void logClientId(){
+        Log.d("ServiceHelper", Utils.getClientId());
     }
 }
